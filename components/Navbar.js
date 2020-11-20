@@ -4,19 +4,27 @@ import { faInstagram, faFacebookSquare, faWhatsapp } from '@fortawesome/free-bra
 
 const NavBar = () => {
   return (
-    <Navbar bg="warning" expand="md">
+    <Navbar className="head" expand="md" style={{ background: 'var(--fucsia)' }} sticky="top">
       <Navbar.Brand href="/">
-        <img src="/logo.png" width="210" height="50" className="d-inline-block align-top" alt="YQMF logo" />
+        <img src="/logo.png" width="210" height="48" className="d-inline-block align-top" alt="YQMF logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-        <Nav className="ml-auto justify-content-end">
-          <Nav.Link href="/">Home</Nav.Link>
-          <NavDropdown title="Productos" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/fotos">Fotos</NavDropdown.Item>
-            <NavDropdown.Item href="/fotolibros">Fotolibros</NavDropdown.Item>
+        <Nav className="ml-auto justify-content-end mr-2">
+          <Nav.Link href="/" className="font-weight-bold lead">
+            Home
+          </Nav.Link>
+          <NavDropdown title="Productos" id="basic-nav-dropdown" className="font-weight-bold lead">
+            <NavDropdown.Item href="/fotos" className="font-weight-bold lead">
+              Fotos
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/fotolibros" className="font-weight-bold lead">
+              Fotolibros
+            </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/contacto">Contacto</Nav.Link>
+          <Nav.Link href="/contacto" className="font-weight-bold lead">
+            Contacto
+          </Nav.Link>
         </Nav>
         <Nav class="d-flex">
           <Nav.Link className="fab fa-instagram fa-2x" href="https://www.instagram.com/yoquieromisfotos/">
