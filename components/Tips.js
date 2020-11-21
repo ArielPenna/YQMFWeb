@@ -42,6 +42,17 @@ const Tips = () => {
           <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
         </Card.Body>
       </Card>
+      <div>
+        <h3 className="mt-4 display-4">"Imprimi tus fotos, ¡antes que pierdas la memoria!"</h3>
+        <p>Nunca te paso que por no imprimir tus fotos terminas perdiendolas o sin saber ¿donde estan?, Bueno ya no más, ahora es tan fácil y rápido que no tenes excusa!!</p>
+      </div>
+      <style jsx>
+        {`
+          p {
+            font-size: 20px;
+          }
+        `}
+      </style>
     </div>
   );
 };

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Container from '../components/Container';\n\nvar Fotolibros = function Fotolibros() {\n  return /*#__PURE__*/_jsx(Container, {\n    children: /*#__PURE__*/_jsx(\"h2\", {\n      children: \"Fotolibros...\"\n    })\n  });\n};\n\nexport default Fotolibros;","map":null,"metadata":{},"sourceType":"module"}

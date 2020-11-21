@@ -1,6 +1,10 @@
 {
+  "/contacto": "pages/contacto.html",
+  "/fotolibros": "pages/fotolibros.html",
+  "/fotos": "pages/fotos.html",
+  "/": "pages/index.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

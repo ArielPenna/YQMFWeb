@@ -18,9 +18,8 @@ const Container = (props) => (
           min-width: 100vw;
           background-color: var(--yellow);
           background-image: url('/stain.png');
-          background-size: cover;
           background-position: center;
-          background-repeat: no-repeat;
+          background-repeat: repeat;
         }
       `}
     </style>

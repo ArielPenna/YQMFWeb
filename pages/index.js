@@ -1,12 +1,14 @@
 import Container from '../components/Container';
 import Slider from '../components/Slider';
 import Tips from '../components/Tips';
+import Kisar from '../components/Kisar';
 
 const Index = () => {
   return (
     <Container>
       <Slider />
       <Tips />
+      <Kisar />
       <style jsx global>
         {`
           :root {
